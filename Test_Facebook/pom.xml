@@ -1,0 +1,76 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tofailtest</groupId>
+  <artifactId>AppTest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>AppTest</name>
+  <description>For Test </description>
+
+	
+
+<dependencies>
+<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+<dependency>
+    <groupId>io.appium</groupId>
+    <artifactId>java-client</artifactId>
+    <version>7.0.0</version>
+</dependency>
+<dependency>
+	<groupId>org.seleniumhq.selenium</groupId>
+					<artifactId>selenium-java</artifactId>
+					<version>3.14.0</version>
+				<exclusions>
+            <exclusion>
+	<groupId>com.google.guava</groupId>
+	<artifactId>guava</artifactId>
+</exclusion>
+</exclusions>
+</dependency>
+ <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-api</artifactId>
+      <version>3.14.0</version>
+      <classifier></classifier>
+    </dependency>
+  
+  <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-remote-driver</artifactId>
+    <version>3.14.0</version>
+</dependency>
+
+	 <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>4.0.1</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>4.0.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.jbehave/jbehave-core -->
+<dependency>
+    <groupId>org.jbehave</groupId>
+    <artifactId>jbehave-core</artifactId>
+    <version>4.4</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.jbehave.web/jbehave-web-selenium -->
+<dependency>
+    <groupId>org.jbehave.web</groupId>
+    <artifactId>jbehave-web-selenium</artifactId>
+    <version>3.4.1</version>
+</dependency>
+
+</dependencies>		
+
+
+</project>
+	
